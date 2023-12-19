@@ -5,7 +5,7 @@ pipeline {
     stage("GIT CHECKOUT") {
       steps {
         echo "cloning the git repo"
-        git branch: "main", url: "https://github.com/hzahid500/flask-app-deployment.git"
+        git branch: "main", url: "https://github.com/hzahid500/new-project-flask.git"
       }
     }
 
